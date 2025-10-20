@@ -8,6 +8,15 @@ import UsersScreen from '../screens/UsersScreen'
 import UserDetailScreen from '../screens/UserDetailScreen'
 import SettingsScreen from '../screens/SettingsScreen'
 import AboutScreen from '../screens/AboutScreen'
+import ColorsScreen from '../screens/ColorsScreen'
+import TypographyScreen from '../screens/TypographyScreen'
+import ButtonsScreen from '../screens/ButtonsScreen'
+import FormsScreen from '../screens/FormsScreen'
+import TablesScreen from '../screens/TablesScreen'
+import ChartsScreen from '../screens/ChartsScreen'
+import NotificationsScreen from '../screens/NotificationsScreen'
+import WidgetsScreen from '../screens/WidgetsScreen'
+import IconsScreen from '../screens/IconsScreen'
 import Header from '../components/Header'
 
 const Stack = createNativeStackNavigator()
@@ -22,6 +31,15 @@ function AppDrawer() {
     >
       <Drawer.Screen name="Dashboard" component={DashboardScreen} />
       <Drawer.Screen name="Users" component={UsersScreen} />
+      <Drawer.Screen name="Tables" component={TablesScreen} />
+      <Drawer.Screen name="Charts" component={ChartsScreen} />
+      <Drawer.Screen name="Forms" component={FormsScreen} />
+      <Drawer.Screen name="Buttons" component={ButtonsScreen} />
+      <Drawer.Screen name="Colors" component={ColorsScreen} />
+      <Drawer.Screen name="Typography" component={TypographyScreen} />
+      <Drawer.Screen name="Icons" component={IconsScreen} />
+      <Drawer.Screen name="Notifications" component={NotificationsScreen} />
+      <Drawer.Screen name="Widgets" component={WidgetsScreen} />
       <Drawer.Screen name="Settings" component={SettingsScreen} />
       <Drawer.Screen name="About" component={AboutScreen} />
     </Drawer.Navigator>

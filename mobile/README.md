@@ -2,7 +2,7 @@ CoreUI Mobile (React Native)
 
 Overview
 - React Native mobile app inspired by the CoreUI Free React Admin Template.
-- Includes authentication mock, dashboard with stats and mini charts, users list with detail view, and settings with light/dark mode.
+- Includes authentication mock, dashboard with stats and mini charts, users list with detail view, forms, tables, charts, notifications, widgets, colors and typography, icons, plus settings with light/dark mode.
 
 Tech stack
 - Expo (managed workflow)
@@ -12,7 +12,6 @@ Tech stack
 
 Getting started
 1) Install dependencies
-   - npm install -g expo-cli (optional)
    - cd mobile
    - npm install
 
@@ -28,7 +27,7 @@ mobile/
   - src/
     - App.js             Top-level app with NavigationContainer
     - navigation/        Root + Drawer navigators
-    - screens/           Dashboard, Users, UserDetail, Settings, About, Login
+    - screens/           Dashboard, Users, UserDetail, Settings, About, Login, Tables, Charts, Forms, Buttons, Colors, Typography, Icons, Notifications, Widgets
     - components/        Header, StatCard, MiniChart
     - store/             authStore, themeStore (Zustand)
 
