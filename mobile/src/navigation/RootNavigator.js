@@ -17,6 +17,11 @@ import ChartsScreen from '../screens/ChartsScreen'
 import NotificationsScreen from '../screens/NotificationsScreen'
 import WidgetsScreen from '../screens/WidgetsScreen'
 import IconsScreen from '../screens/IconsScreen'
+import OrderCreateScreen from '../screens/OrderCreateScreen'
+import OrderProcessScreen from '../screens/OrderProcessScreen'
+import StockIncomingScreen from '../screens/StockIncomingScreen'
+import StockOutgoingScreen from '../screens/StockOutgoingScreen'
+import StockCurrentScreen from '../screens/StockCurrentScreen'
 import Header from '../components/Header'
 
 const Stack = createNativeStackNavigator()
@@ -30,6 +35,11 @@ function AppDrawer() {
       }}
     >
       <Drawer.Screen name="Dashboard" component={DashboardScreen} />
+      <Drawer.Screen name="Create Order" component={OrderCreateScreen} />
+      <Drawer.Screen name="Orders Process" component={OrderProcessScreen} />
+      <Drawer.Screen name="Stock Incoming" component={StockIncomingScreen} />
+      <Drawer.Screen name="Stock Outgoing" component={StockOutgoingScreen} />
+      <Drawer.Screen name="Current Stock" component={StockCurrentScreen} />
       <Drawer.Screen name="Users" component={UsersScreen} />
       <Drawer.Screen name="Tables" component={TablesScreen} />
       <Drawer.Screen name="Charts" component={ChartsScreen} />
