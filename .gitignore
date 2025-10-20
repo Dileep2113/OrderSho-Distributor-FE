@@ -22,6 +22,9 @@ ios/
 build/
 dist/
 
+# Allow release artifacts
+!/mobile/release/**
+
 # Misc
 .DS_Store
 Thumbs.db
