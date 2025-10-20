@@ -1,0 +1,30 @@
+# Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Expo / React Native
+.expo/
+.expo-shared/
+web-build/
+android/
+ios/
+*.keystore
+*.jks
+
+# Metro / cache
+.expo-cache/
+.expo/web/cache/
+.cache/
+build/
+dist/
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
